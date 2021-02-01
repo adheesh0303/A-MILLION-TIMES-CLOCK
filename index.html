@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A million times clock</title>
+        <style media="screen">
+            html {
+                height: 100%;
+            }
+            body {
+                background-color: #f7f7f7;
+                min-height: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                font-family: monospace;
+            }
+            .header {
+                text-align: center;
+                padding: 20px;
+            }
+            .footer {
+                text-align: center;
+                padding: 20px;
+            }
+            .clock {
+                flex-grow: 1;
+                position: relative;
+                display: flex;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="clock"></div>
+        <div class="footer">
+            Made by <a href="https://twitter.com/drbreak" target="_blank">Malte Wessel</a>
+        </div>
+    </body>
+</html>
